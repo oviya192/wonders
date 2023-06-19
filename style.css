@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+body{
+    min-height: 100vh;
+    background: url(wonders.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position:absolute;
+    background: #15030d4a;
+    box-shadow: 0 5px 10px #335185;
+    display: flex;
+    align-items: center;
+    width: 65%;
+    margin-left: 350px;
+    padding-left:0px;
+    height: 50px;
+    margin-top: 30px;
+ justify-content:center;
+}
+header .navbar ul{
+    list-style: none;
+    }
+    header .navbar ul li{
+        position: relative;
+        float: left;
+        padding-left:60px; 
+      
+       margin-right: 40px;
+      
+    
+    }
+    .navbar ul li a{
+        font-size: 20px;
+        padding: 20px;
+        color: #ffffff;
+        display: block;
+        
+        
+    }
+    .navbar ul li a:hover{
+        background: #1be908e7;
+        color: #ffffff;
+        height: 50px;
+        margin-top: 5px;
+       padding: 15px;
+      
+        
+    }
+    .navbar ul li ul{
+        position: absolute;
+        left: 0px;
+        width: 200px;
+       justify-content: left;
+       padding: 0;
+       text-align: left;
+        background: #011b0469;
+        display: none;
+     
+    }
+    .navbar ul li ul li{
+        width: 100%;
+        margin-left:0px;
+        padding-left:0px;
+        
+    }
+    .navbar ul li ul li ul{
+        left: 200px;
+        top: 0;
+    }
+    .navbar ul li:focus-within >ul,
+    .navbar ul li:hover > ul{
+        display: initial;
+    }
+    #menu-bar{
+        display: none;
+    }
+   
